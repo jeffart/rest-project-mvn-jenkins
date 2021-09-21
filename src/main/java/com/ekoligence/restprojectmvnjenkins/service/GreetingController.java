@@ -8,15 +8,27 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.ekoligence.restprojectmvnjenkins.domain.Greeting;
 
+/**
+ * The Class GreetingController.
+ */
 @RestController
 public class GreetingController {
-	
-	private static final String template = "Hello, %s!";
-	private final AtomicLong counter = new AtomicLong();
 
-	@GetMapping("/greeting")
-	public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return new Greeting(counter.incrementAndGet(), String.format(template, name));
-	}
+  /** The Constant template. */
+  private static final String template = "Hello, %s!";
+
+  /** The counter. */
+  private final AtomicLong counter = new AtomicLong();
+
+  /**
+   * Greeting.
+   *
+   * @param name the name
+   * @return the greeting
+   */
+  @GetMapping("/greeting")
+  public Greeting greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
+    return new Greeting(counter.incrementAndGet(), String.format(template, name));
+  }
 
 }
