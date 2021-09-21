@@ -13,7 +13,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
    * #configure(org.springframework.boot.builder.SpringApplicationBuilder)
    */
   @Override
-  protected SpringApplicationBuilder configure(final SpringApplicationBuilder application) {
+  protected final SpringApplicationBuilder configure(final SpringApplicationBuilder application) {
     return application.sources(RestProjectMvnJenkinsApplication.class);
   }
 
