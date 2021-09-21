@@ -10,6 +10,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RestProjectMvnJenkinsApplication {
 
   /**
+   * Instantiates a new RestProjectMvnJenkinsApplication. protected to prevent instantiation
+   */
+  protected RestProjectMvnJenkinsApplication() {
+    // prevents calls from subclass
+    throw new UnsupportedOperationException();
+  }
+
+  /**
    * The main method.
    *
    * @param args the arguments
