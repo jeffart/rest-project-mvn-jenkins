@@ -18,7 +18,7 @@ public class Greeting {
    * @param id      the id
    * @param content the content
    */
-  public Greeting(long mid, String mcontent) {
+  public Greeting(final long mid, final String mcontent) {
     this.id = mid;
     this.content = mcontent;
   }
