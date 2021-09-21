@@ -1,5 +1,5 @@
 /**
- * This module Contains all of the classes for rest service
+ * This module Contains all of the classes for rest service.
  * <p>
  * Contains all of the services classes
  * </p>

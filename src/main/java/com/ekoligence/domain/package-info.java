@@ -1,5 +1,5 @@
 /**
- * This module Contains all of the classes for domain
+ * This module Contains all of the classes for domain.
  * <p>
  * Contains all of the classes for domain
  * </p>

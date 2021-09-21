@@ -1,5 +1,5 @@
 /**
- * This module Contains all of the classes for start app
+ * This module Contains all of the classes for start app.
  * <p>
  * Info about this package doing something for package-info.java file.
  * </p>
