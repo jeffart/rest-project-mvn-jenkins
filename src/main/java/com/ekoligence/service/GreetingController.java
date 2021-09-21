@@ -20,8 +20,6 @@ public class GreetingController {
   /** The counter. */
   private final AtomicLong counter = new AtomicLong();
 
-
-
   /**
    * Greeting.
    *
@@ -29,7 +27,9 @@ public class GreetingController {
    * @return the greeting
    */
   @GetMapping("/greeting")
-  public Greeting greeting(@RequestParam(value = "name", defaultValue = "World Donatien") final String name) {
+  public Greeting greeting(
+                           @RequestParam(value = "name", defaultValue = "World Donatien")
+                           final String name) {
     return new Greeting(counter.incrementAndGet(), String.format(TEMPLATE, name));
   }
 
