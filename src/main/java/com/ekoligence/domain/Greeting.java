@@ -15,8 +15,8 @@ public class Greeting {
   /**
    * Instantiates a new greeting.
    *
-   * @param id      the id
-   * @param content the content
+   * @param mid first argument.
+   * @param mcontent the second argument.
    */
   public Greeting(final long mid, final String mcontent) {
     this.id = mid;
