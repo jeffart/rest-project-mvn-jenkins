@@ -1,4 +1,4 @@
-package com.ekoligence.restprojectmvnjenkins.domain;
+package com.ekoligence.domain;
 
 
 /**

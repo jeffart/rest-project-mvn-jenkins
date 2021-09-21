@@ -1,4 +1,4 @@
-package com.ekoligence.restprojectmvnjenkins;
+package com.ekoligence;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
