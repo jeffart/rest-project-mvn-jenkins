@@ -3,6 +3,7 @@ package com.ekoligence;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+// TODO: Auto-generated Javadoc
 /**
  * The Class RestProjectMvnJenkinsApplication.
  */
@@ -15,6 +16,15 @@ public class RestProjectMvnJenkinsApplication {
    * @param args the arguments
    */
   public static void main(final String[] args) {
+    new RestProjectMvnJenkinsApplication().run(args);
+  }
+
+  /**
+   * Run.
+   *
+   * @param args the args
+   */
+  private void run(final String[] args) {
     SpringApplication.run(RestProjectMvnJenkinsApplication.class, args);
   }
 
