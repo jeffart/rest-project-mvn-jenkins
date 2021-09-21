@@ -15,7 +15,7 @@ import com.ekoligence.domain.Greeting;
 public class GreetingController {
 
   /** The Constant template. */
-  private static final String templateText = "Hello, %s!";
+  private static final String TEMPLATE = "Hello, %s!";
 
   /** The counter. */
   private final AtomicLong counter = new AtomicLong();
@@ -28,7 +28,7 @@ public class GreetingController {
    */
   @GetMapping("/greeting")
   public Greeting greeting(@RequestParam(value = "name", defaultValue = "World Donatien") String name) {
-    return new Greeting(counter.incrementAndGet(), String.format(templateText, name));
+    return new Greeting(counter.incrementAndGet(), String.format(TEMPLATE, name));
   }
 
 }
