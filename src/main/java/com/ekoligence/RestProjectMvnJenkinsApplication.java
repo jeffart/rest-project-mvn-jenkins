@@ -14,7 +14,7 @@ public class RestProjectMvnJenkinsApplication {
    */
   private RestProjectMvnJenkinsApplication() {
     // prevents calls from subclass
-    throw new UnsupportedOperationException();
+    throw new AssertionError("Instantiating RestProjectMvnJenkinsApplication class.");
   }
 
   /**
