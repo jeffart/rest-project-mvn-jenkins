@@ -23,7 +23,7 @@ public class GreetingController {
   /**
    * Greeting.
    *
-   * @param name the name
+   * @param name the first param
    * @return the greeting
    */
   @GetMapping("/greeting")
