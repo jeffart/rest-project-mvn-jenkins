@@ -13,8 +13,7 @@ public class RestProjectMvnJenkinsApplication {
    * Instantiates a new RestProjectMvnJenkinsApplication. protected to prevent instantiation
    */
   private RestProjectMvnJenkinsApplication() {
-    // prevents calls from subclass
-    throw new AssertionError("Instantiating RestProjectMvnJenkinsApplication class.");
+
   }
 
   /**
